@@ -13,7 +13,7 @@ const usuariosPut = (req = request, res =response)=>{
     const yid = req.params.xid;
 
     res.json({
-        mensaje:"Put API CONTROLLER: recibiendo parametros o segmento de ruta Panchis",
+        mensaje:"Put API CONTROLLER: recibiendo parametros o segmento de ruta",
         yid
     });
 }

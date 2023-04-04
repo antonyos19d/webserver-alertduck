@@ -11,4 +11,8 @@ router.delete('/', usuariosDelete);
 
 router.post('/',usuariosPost);
 
+router.get('*',(req,res)=>{
+    res.send('404 | page not found: personalizado DC');
+});
+
 module.exports = router;
